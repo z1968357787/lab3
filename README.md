@@ -21,9 +21,9 @@ tensorflow, tensorboard 等。
 ## 实验步骤
 **一、获取代码**
 
-实验完整代码[mtcnn_pytorch](https://github.com/xiezheng-cs/mtcnn_pytorch)，可直接下载或是通过git clone命令下载。
+实验完整代码[mtcnn_pytorch](https://github.com/kanghailong99/lab4.git)，可直接下载或是通过git clone命令下载。
 ```bash
-git clone https://github.com/xiezheng-cs/mtcnn_pytorch.git
+git clone https://github.com/kanghailong99/lab4.git
 ```
 
 **二、实验环境安装**
@@ -41,7 +41,7 @@ pip install opencv-python
 
 **三、简单测试给定模型**
 
-直接使用我们[训练好的网络模型](https://github.com/xiezheng-cs/mtcnn_pytorch/releases)在给定的测试数据集(位于mtcnn_pytorch/data/test_images/目录下,共64张测试图片)，运行以下命令，即可在mtcnn_pytorch/data/you_result/目录下查看检测结果。
+直接使用我们[训练好的网络模型](https://github.com/kanghailong99/lab4/mtcnn_pytorch/releases)在给定的测试数据集(位于mtcnn_pytorch/data/test_images/目录下,共64张测试图片)，运行以下命令，即可在mtcnn_pytorch/data/you_result/目录下查看检测结果。
 ```bash
 cd mtcnn_pytorch/
 python test_image.py
