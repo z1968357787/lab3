@@ -2,9 +2,9 @@ class Config(object):
     def __init__(self):
         super(Config, self).__init__()
         #  ------------ General options ----------------------------------------
-        self.save_path = "./results/pnet/"
-        self.dataPath = "'/mnt/cephfs/dataset/WIDER/WIDER_train/images"  # path for loading data set
-        self.annoPath = "./annotations/imglist_anno_12.txt"
+        self.save_path = "E:\javacore_locate\lab3\mtcnn_pytorch\\training\pnet"
+        self.dataPath = "E:\javacore_locate\lab3\mtcnn_pytorch\WIDER_train\images"  # path for loading data set
+        self.annoPath = "../../annotations/imglist_anno_12.txt"
         self.manualSeed = 1  # manually set RNG seed
         self.use_cuda = True
         self.GPU = "0"  # default gpu to use

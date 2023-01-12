@@ -173,7 +173,7 @@ def parse_args():
     parser.add_argument('--anno_file', dest='annotation_file', help='wider face original annotation file',
                         default=os.path.join(config.ANNO_STORE_DIR, "wider_origin_anno.txt"), type=str)
     parser.add_argument('--prefix_path', dest='prefix_path', help='annotation file image prefix root path',
-                        default='/mnt/cephfs/dataset/Face/FaceAlignment', type=str)
+                        default=config.IMG_SET, type=str)
 
     args = parser.parse_args()
     return args

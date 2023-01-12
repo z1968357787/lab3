@@ -1,13 +1,15 @@
 import os
 
 
-MODEL_STORE_DIR = "./models"
+MODEL_STORE_DIR = "E:\javacore_locate\lab3\mtcnn_pytorch\models"
 
-ANNO_STORE_DIR = "./annotations"
+ANNO_STORE_DIR = "E:\javacore_locate\lab3\mtcnn_pytorch\\annotations"
 
-TRAIN_DATA_DIR = "./data"
+TRAIN_DATA_DIR = "E:\javacore_locate\lab3\mtcnn_pytorch\data"
 
 LOG_DIR = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))+"/log"
+
+IMG_SET="E:\javacore_locate\lab3\mtcnn_pytorch\WIDER_train\images"
 
 USE_CUDA = True
 
